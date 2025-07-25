@@ -29,7 +29,8 @@ async function shuffleTracks() {
 		tracks.splice(current, 1);
 		tracks.unshift(track);
 
-		console.log(`Track ${trackId}:${albumId} moved from ${from} to ${tracks.length - i}. Revision ${revision} (${i+1} / ${tracks.length})`);
+		console.log(`[${i+1}/${tracks.length}] Track ${trackId}:${albumId} moved from ${from} to ${tracks.length - i}`);
+		
 		revision++;
 		if(sleepTime) await sleep(sleepTime);
 	};
