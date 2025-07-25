@@ -1,3 +1,5 @@
+// Read README.md and paste this script into browser Console
+
 const playlistId = 1111; // Replace 1111 with "kind" value from Network tab
 const userId = 2222; // Replace 2222 with "uid" value from Network tab
 
