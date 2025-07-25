@@ -29,8 +29,9 @@ async function shuffleTracks() {
 		tracks.splice(current, 1);
 		tracks.unshift(track);
 
-		console.log(`Track ${trackId}:${albumId} moved from ${from} to ${tracks.length - i}. Revision ${revision}`);
+		console.log(`Track ${trackId}:${albumId} moved from ${from} to ${tracks.length - i}. Revision ${revision} (${i+1} / ${tracks.length})`);
 		revision++;
+		if(useSleep) await sleep(200);
 	};
 	console.info(`Shuffling of ${tracks.length} tracks is completed!`);
 
@@ -97,9 +98,13 @@ function getHeaders() {
 		"x-yandex-music-without-invocation-info": "1"
 	}
 }
+function sleep(ms) {
+	return new Promise((resolve, reject) => setTimeout(() => resolve(), ms));
+}
 
 const playlistName = "My playlist"; // Write your playlist name, Укажите имя вашего плейлиста
 
+const useSleep = true;
 const userId = getUser();
 const playlistId = await getPlaylist(playlistName);
 let [tracks, revision] = await getTracks();
