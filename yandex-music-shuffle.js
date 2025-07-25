@@ -31,7 +31,7 @@ async function shuffleTracks() {
 
 		console.log(`Track ${trackId}:${albumId} moved from ${from} to ${tracks.length - i}. Revision ${revision} (${i+1} / ${tracks.length})`);
 		revision++;
-		if(sleepTime) await sleep(200);
+		if(sleepTime) await sleep(sleepTime);
 	};
 	console.info(`Shuffling of ${tracks.length} tracks is completed!`);
 
