@@ -6,7 +6,7 @@ Browser console script that allows to **permanently** shuffle your playlist.
 - You can restore your current track after app exit
 
 ### Does script work with "I like" playlist?
-Yes, here's special [Script](./yandex-music-shuffle-i-like.js) and [Instruction](./i-like.md)
+Yes, here's special [Script](./yandex-music-shuffle-i-like.js) and [Instruction](./i-like-en.md)
 
 ## Instruction
 
