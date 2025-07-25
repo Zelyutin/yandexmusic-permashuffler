@@ -21,7 +21,7 @@ async function shuffleTracks() {
 		});
 		const dataRemove = await resultRemove.json();
 
-		if(useSleep) await sleep(200);
+		if(sleepTime) await sleep(sleepTime);
 
 		const resultAdd = await fetch(`https://api.music.yandex.ru/users/${userId}/likes/tracks/add?track-id=${trackId}:${albumId}`, {
 			"headers": getHeaders(),
@@ -36,9 +36,9 @@ async function shuffleTracks() {
 		tracks.splice(current, 1);
 		tracks.unshift(track);
 
-		console.log(`Track ${trackId}:${albumId} moved from ${from} to ${tracks.length - i} (${i+1} / ${tracks.length}`);
+		console.log(`Track ${trackId}:${albumId} moved from ${from} to ${tracks.length - i} (${i+1} / ${tracks.length})`);
 
-		if(useSleep) await sleep(200);
+		if(sleepTime) await sleep(sleepTime);
 	};
 	console.info(`Shuffling of ${tracks.length} tracks is completed!`);
 }
@@ -109,9 +109,13 @@ function sleep(ms) {
 	return new Promise((resolve, reject) => setTimeout(() => resolve(), ms));
 }
 
-const useSleep = true;
+const sleepTime = 200;
 const userId = getUser();
-const playlistId = await getPlaylist();
-let tracks = await getTracks();
 
-shuffleTracks();
+const playlistId = await getPlaylist();
+if(sleepTime) await sleep(sleepTime);
+
+let tracks = await getTracks();
+if(sleepTime) await sleep(sleepTime);
+
+await shuffleTracks();

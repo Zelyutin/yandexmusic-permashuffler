@@ -31,7 +31,7 @@ async function shuffleTracks() {
 
 		console.log(`Track ${trackId}:${albumId} moved from ${from} to ${tracks.length - i}. Revision ${revision} (${i+1} / ${tracks.length})`);
 		revision++;
-		if(useSleep) await sleep(200);
+		if(sleepTime) await sleep(200);
 	};
 	console.info(`Shuffling of ${tracks.length} tracks is completed!`);
 
@@ -104,9 +104,13 @@ function sleep(ms) {
 
 const playlistName = "My playlist"; // Write your playlist name, Укажите имя вашего плейлиста
 
-const useSleep = true;
+const sleepTime = 200;
 const userId = getUser();
+
 const playlistId = await getPlaylist(playlistName);
+if(sleepTime) await sleep(sleepTime);
+
 let [tracks, revision] = await getTracks();
+if(sleepTime) await sleep(sleepTime);
 
 shuffleTracks();
