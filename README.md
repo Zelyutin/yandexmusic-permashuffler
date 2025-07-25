@@ -13,22 +13,12 @@
 ### 1) Зайдите в браузере на [music.yandex.ru](https://music.yandex.ru) в ваш профиль и откройте плейлист, который вы хотите перемешать
 <img width="920" height="657" alt="image" src="https://github.com/user-attachments/assets/ee520152-1495-4665-bebd-d200329d34f1" />
 
-### 2) Откройте инструменты разработчика в браузере (Ctrl/Cmd + Shift + I), выполните следующие действия, как на изображении ниже:
-- Перейдите во вкладку Network
-- Включите фильтры с помощью кнопки фильтра (воронка)
-- Очистите лог Network (перечеркнутый круг)
-- Введите "change" в поле фильтра
-- Включите Fetch/XHR тип запросов в фильтрах справа от поля
-- Переместите один трек вручную в плейлисте в Яндекс.Музыке выше, как сделали бы это обычно
-- Откройте появившийся запрос "change-relative" в логе Network
-- Перейдите на вкладку "Preview" в появившемся окне справа от лога
-- Найдите "kind" и "uid" параметры
-- Скопируйте их или запишите
+### 2) Откройте инструменты разработчика в браузере (Ctrl/Cmd + Shift + I), перейдите на вкладку Console
+В случае возникновении предупреждения о вставке скриптов, напишите "allow pasting" и нажмите Enter, при необходимости, дважды
+<img width="1275" height="316" alt="image" src="https://github.com/user-attachments/assets/8422b424-6c20-4faa-a9a0-90dba4616fb7" />
 
-<img width="1172" height="517" alt="image" src="https://github.com/user-attachments/assets/962d9ce6-4682-4982-8896-0b8f2916f00f" />
-
-### 3) Вставьте скрипт из файла **yandex-music-shuffle.js**, расположенном в данном репозитории, на вкладке Console. Установите значения "playlistId" и "userId" из скопированных ранее "kind" и "uid" сооответственно.
-<img width="1165" height="773" alt="image" src="https://github.com/user-attachments/assets/483d49fc-f8b7-433f-99f3-6e5c738533e3" />
+### 3) Вставьте скрипт из файла **yandex-music-shuffle.js**, расположенном в данном репозитории, на вкладке Console. Установите значение playlistName на название вашего плейлиста
+<img width="1099" height="410" alt="image" src="https://github.com/user-attachments/assets/8df9a416-d092-41a1-99af-c402f5437f61" />
 
 ### 4) Нажмите Enter и наблюдайте за обновлением плейлиста
 <img width="1151" height="709" alt="image" src="https://github.com/user-attachments/assets/c194231b-48e4-40df-aeee-cbaf0844326a" />
