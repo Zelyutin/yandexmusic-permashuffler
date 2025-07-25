@@ -1,14 +1,6 @@
 // Read README-en.md and paste this script into browser Console
 // Прочитайте README.md и вставьте данный скрипт в Консоль браузера согласно инструкции
 
-const playlistName = "My playlist"; // Write your playlist name, Укажите имя вашего плейлиста
-
-const userId = getUser();
-const playlistId = await getPlaylist(playlistName);
-let [tracks, revision] = await getTracks();
-
-shuffleTracks();
-
 async function shuffleTracks() {
 	console.info(`Shuffling of ${tracks.length} tracks is started!`);
 	for(let i = 0; i < tracks.length; i++) {
@@ -105,3 +97,11 @@ function getHeaders() {
 		"x-yandex-music-without-invocation-info": "1"
 	}
 }
+
+const playlistName = "My playlist"; // Write your playlist name, Укажите имя вашего плейлиста
+
+const userId = getUser();
+const playlistId = await getPlaylist(playlistName);
+let [tracks, revision] = await getTracks();
+
+shuffleTracks();
