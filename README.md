@@ -17,7 +17,7 @@
 В случае возникновении предупреждения о вставке скриптов, напишите "allow pasting" и нажмите Enter, при необходимости, дважды
 <img width="1275" height="316" alt="image" src="https://github.com/user-attachments/assets/8422b424-6c20-4faa-a9a0-90dba4616fb7" />
 
-### 3) Вставьте скрипт из файла **yandex-music-shuffle.js**, расположенном в данном репозитории, на вкладке Console. Установите значение playlistName на название вашего плейлиста
+### 3) Вставьте скрипт из файла **yandex-music-shuffle.js**, расположенного в данном репозитории, на вкладке Console. Установите значение playlistName на название вашего плейлиста
 <img width="1099" height="410" alt="image" src="https://github.com/user-attachments/assets/8df9a416-d092-41a1-99af-c402f5437f61" />
 
 ### 4) Нажмите Enter и наблюдайте за обновлением плейлиста
