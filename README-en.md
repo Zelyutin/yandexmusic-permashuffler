@@ -17,7 +17,7 @@ Yes, here's special [Script](./yandex-music-shuffle-i-like.js) and [Instruction]
 If system message about scripts pasting is occured, write "allow pasting" and press Enter
 <img width="1275" height="316" alt="image" src="https://github.com/user-attachments/assets/8422b424-6c20-4faa-a9a0-90dba4616fb7" />
 
-### 3) Paste script from **yandex-music-shuffle.js** into console. Set "playlistName" to your playlist name.
+### 3) Paste script from [yandex-music-shuffle.js](./yandex-music-shuffle.js) into console. Set "playlistName" to your playlist name.
 <img width="1099" height="410" alt="image" src="https://github.com/user-attachments/assets/8df9a416-d092-41a1-99af-c402f5437f61" />
 
 ### 4) Press Enter and watch your whole playlist shuffle
