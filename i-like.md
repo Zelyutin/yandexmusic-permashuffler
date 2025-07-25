@@ -16,7 +16,7 @@
 В случае возникновении предупреждения о вставке скриптов, напишите "allow pasting" и нажмите Enter, при необходимости, дважды
 <img width="1275" height="316" alt="image" src="https://github.com/user-attachments/assets/8422b424-6c20-4faa-a9a0-90dba4616fb7" />
 
-### 3) Вставьте скрипт из файла **"yandex-music-shuffle-i-like.js"**, расположенном в данном репозитории, на вкладке Console.
+### 3) Вставьте скрипт из файла [yandex-music-shuffle-i-like.js](./yandex-music-shuffle-i-like.js), расположенном в данном репозитории, на вкладке Console.
 <img width="855" height="336" alt="image" src="https://github.com/user-attachments/assets/3e73e03e-44ac-4ced-9219-ec4db85f2e73" />
 
 ### 4) Нажмите Enter и наблюдайте за обновлением плейлиста
