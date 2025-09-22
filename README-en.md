@@ -1,12 +1,19 @@
 # Permanent playlist shuffle script for Yandex Music
 
 Browser console script that allows to **permanently** shuffle your playlist.
+
 ### Permanent shuffle is better than default shuffle mode because:
 - Every track is guaranteed to play
 - You can restore your current track after app exit
 
 ### Does script work with "I like" playlist?
 Yes, here's special [Script](./yandex-music-shuffle-i-like.js) and [Instruction](./i-like-en.md)
+
+### Can I copy playlist before shuffling?
+Yes, here's also special [Script](./yandex-music-copy.js) and [Instruction](./copy-en.md)
+
+### Can I copy "I like" playlist?
+Yes, here's [Script](./yandex-music-copy-i-like.js) and [Instruction](./copy-i-like-en.md) as well
 
 ## Instruction
 
