@@ -12,10 +12,11 @@
 В случае возникновении предупреждения о вставке скриптов, напишите "allow pasting" и нажмите Enter, при необходимости, дважды
 <img width="1275" height="316" alt="image" src="https://github.com/user-attachments/assets/8422b424-6c20-4faa-a9a0-90dba4616fb7" />
 
-### 3) Вставьте скрипт из файла [yandex-music-copy-i-like.js](./yandex-music-copy-i-like.js), расположенном в данном репозитории, на вкладке Console.
-<img width="855" height="336" alt="image" src="https://github.com/user-attachments/assets/3e73e03e-44ac-4ced-9219-ec4db85f2e73" />
+### 3) Вставьте скрипт из файла [yandex-music-copy-i-like.js](./yandex-music-copy-i-like.js), расположенном в данном репозитории, на вкладке Console
+<img width="1025" height="399" alt="image" src="https://github.com/user-attachments/assets/145e3b87-e4e9-4260-aae9-3a97bfca0494" />
 
 ### 4) Нажмите Enter и наблюдайте за копированием плейлиста
-<img width="1560" height="835" alt="image" src="https://github.com/user-attachments/assets/61b19388-838d-401d-84cd-c5c447180fee" />
+<img width="1017" height="281" alt="image" src="https://github.com/user-attachments/assets/dce523de-37f0-46ca-80fb-3acdc067909b" />
 
-### 5) Дождитесь сообщения о завершении перемешивания, обновите страницу, и наслаждайтесь новым плейлистом "I LIKE – COPY"!
+### 5) Дождитесь сообщения о завершении копирования, откройте список плейлистов и наслаждайтесь новым плейлистом "I LIKE – COPY"!
+<img width="474" height="303" alt="image" src="https://github.com/user-attachments/assets/549b0a1a-fb7e-45cd-8079-b81e950c4c30" />
