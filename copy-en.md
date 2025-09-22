@@ -20,5 +20,5 @@ If system message about scripts pasting is occured, write "allow pasting" and pr
 ### 4) Press Enter and watch your whole playlist copy
 <img width="1142" height="280" alt="image" src="https://github.com/user-attachments/assets/dacc375c-38eb-4bf8-99e6-1a8600fd0c61" />
 
-### 5) Wait for the last message for completion and enjoy your new copied playlist!
+### 5) Wait for the last message for completion, open playlists page and enjoy your new copied playlist!
 <img width="709" height="428" alt="image" src="https://github.com/user-attachments/assets/805d6e7a-0444-45a3-a068-c47921a86f17" />
