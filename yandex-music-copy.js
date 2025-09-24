@@ -77,7 +77,7 @@ async function getTracks() {
 }
 async function createPlaylist(title) {
 	title += ` – COPY`;
-	const result = await fetch(`https://api.music.yandex.ru/users/157063175/playlists/create?visibility=public&title=${title}`, {
+	const result = await fetch(`https://api.music.yandex.ru/users/${userId}/playlists/create?visibility=public&title=${title}`, {
 		"headers": getHeaders(),
 		"referrer": "https://music.yandex.ru/",
 		"body": null,
